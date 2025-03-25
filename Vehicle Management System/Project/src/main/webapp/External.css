@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body{
+	background-color:lightBlue;
+	text-align:center;
+	border-radius:15px;
+}
+h1{
+	image-size:10px;
+	image-align:corner;
+}
+slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+mySlides {
+  display: none;
+}
+
+fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
